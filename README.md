@@ -10,7 +10,7 @@ A Terraform code that creates an EC2 instance in AWS
   
 **ec2.tf** - configuration file that creates the EC2 instance itself. contains the ami, instance_type, key pair name and the association of subnets and vpcs. 
 
-**network.tf** - this contains the necessary things needed to provision resources in AWS such as: Internet gateway, route table (__with route table association__), security groups (__to limit the access whether in or out of the instances__).
+**network.tf** - this contains the necessary things needed to provision resources in AWS such as: Internet gateway, route table (*with route table association*), security groups (*to limit the access whether in or out of the instances*).
 
 **vpc.tf** - contains the VPC of the network and the subnets needed for the instances. 
 
