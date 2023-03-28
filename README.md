@@ -4,8 +4,8 @@ A Terraform code that creates an EC2 instance in AWS
 **Creation of EC2 instance through Terraform**
 
 **Prerequisites**
-  AWS Credentials
-  Terraform
+    AWS Credentials
+    Terraform
   
 **ec2.tf** - configuration file that creates the EC2 instance itself. contains the ami, instance_type, key pair name and the association of subnets and vpcs. 
 
