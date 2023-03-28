@@ -4,6 +4,7 @@ A Terraform code that creates an EC2 instance in AWS
 **Creation of EC2 instance through Terraform**
 
 **Prerequisites**
+
     AWS Credentials
     Terraform
   
